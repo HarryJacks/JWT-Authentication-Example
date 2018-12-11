@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JWT Authentication</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>JWT Authentication Example</h1>
+    <hr/>
+    <h2>Details to generate token</h2>
+    <p><strong>Username:</strong> Harry</p>
+    <p><strong>Password:</strong> 12345</p>
+    <hr/>
+    <h2>Token</h2>
+    <button id="getToken">Get token</button>
+    <p><strong>Token:</strong><input type="text" id="token" style="width: 50%; margin-left: 15px; background-color: antiquewhite; padding: 5px 10px;"></p>
+    <hr/>
+    <h2>Fetch info using token</h2>
+    <button id="getInfo">Get info using token</button>
+    <p><strong>Message:</strong> <span id="message"></span></p>
+    <p><strong>Information fetched using token:</strong></p>
+    <p id="info"></p>
+
+</body>
+
+</html>
