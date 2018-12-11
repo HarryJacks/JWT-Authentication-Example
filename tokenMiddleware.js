@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 function tokenMiddleware(req, app){
 
     return new Promise(function(resolve, reject) {
-        // check header for the token
+        // check body for the token
         var token = req.body['token'];
     
         // decode token
